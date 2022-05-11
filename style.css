@@ -99,6 +99,7 @@ html {
   display: flex;
   background-color: #222;
   justify-content: space-between;
+  align-items: center;
   color: #eee;
 }
 .h-container {
@@ -107,7 +108,14 @@ html {
   box-shadow: 0 0 20px #ddd;
 }
 .name {
-  font-weight: lighter;
-  font-size: 2rem;
+  font-weight: 100;
+  font-size: 1.5rem;
   letter-spacing: 1.2px;
+}
+
+a:visited,
+a:hover,
+a {
+  text-decoration: none;
+  color: #fff;
 }
