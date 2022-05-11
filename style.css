@@ -3,16 +3,19 @@
 *::before {
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@600;700&family=Source+Code+Pro:wght@300;400;500&display=swap");
 div {
   /* border: 1px solid black; */
 }
 body,
 html {
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 .container {
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: rgb(25, 25, 25, 0.1);
 }
@@ -89,4 +92,22 @@ html {
   font-size: 1.5rem;
   background-color: rgba(10, 10, 10, 0.25);
   cursor: pointer;
+}
+.h-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #222;
+  justify-content: space-between;
+  color: #eee;
+}
+.h-container {
+  width: 100%;
+  background-color: #222;
+  box-shadow: 0 0 20px #ddd;
+}
+.name {
+  font-weight: lighter;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
 }
